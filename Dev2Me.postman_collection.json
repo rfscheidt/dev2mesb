@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "f5ffd1bc-dba8-4ce9-96b2-b1ab5ebb55a0",
+		"name": "Dev2Me",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Salvar Filme",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"movieName\": \"A lagoa azul\",\r\n    \"movieType\": \"MOVIE\",\r\n    \"movieYear\": \"1990\",\r\n    \"language\": \"EN\",\r\n    \"list\": \"Joao, Maria, Jose\",\r\n    \"synopsis\": \"bla bla bla bla bla bla...\",\r\n    \"trailer\": \"http://www.youtube.com/yak\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"movies"
+					]
+				},
+				"description": "Salvar Filme"
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Filmes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar Filmes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Pegar por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
