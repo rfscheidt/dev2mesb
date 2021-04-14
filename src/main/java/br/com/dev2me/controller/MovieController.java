@@ -3,6 +3,7 @@ package br.com.dev2me.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,6 +20,7 @@ import br.com.dev2me.repository.MovieRepository;
 
 @RestController
 @RequestMapping("/api/v1")
+@CrossOrigin
 public class MovieController {
 
 	@Autowired
